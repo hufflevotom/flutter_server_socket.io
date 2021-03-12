@@ -1,6 +1,7 @@
 const {io} = require('../index');
 const Band = require('../models/band');
-const bands=new Bands();
+const Bands = require('../models/bands');
+const bands = new Bands();
 bands.addBand(new Band('Queen'));
 bands.addBand(new Band('Bon Jovi'));
 bands.addBand(new Band('Heroes del Silencio'));
